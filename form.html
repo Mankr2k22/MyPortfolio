@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Form Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            background-color: red;
+        }
+
+        .container {
+            width: 30%;
+            border: 1px solid black;
+            margin: auto;
+            padding: 20px;
+            font-size: 20px;
+            background-color: rgb(14, 14, 2);
+            color: red;
+            font-family: "poppins", sans-serif;
+            font-size: 18px;
+        }
+
+        #myForm table tr td input {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--<div>TODO write content</div>-->
+    <div class="container">
+        <h1>My Form</h1>
+        <form id="myForm" action="/" method="/">
+            <table>
+                <tr>
+                    <td>Enter Your Name:</td>
+                    <td>
+                        <input type="text" name="user_name" placeholder="enter your name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Your Password:</td>
+                    <td>
+                        <input type="password" name="password" placeholder="enter your password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Your Email:</td>
+                    <td>
+                        <input type="email" name="email" placeholder="enter your email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Your Mobile no:</td>
+                    <td>
+                        <input type="number" name="mobile" placeholder="enter your mobile no" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male" />Male &nbsp;
+                        &nbsp; <input type="radio" name="gender" value="female" />Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Your Course</td>
+                    <td>
+                        <select name="user_course">
+                            <option value="Java">Java</option>
+                            <option value="Python">Python</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Php">Php</option>
+                            <option value="NodeJs">NodeJs</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">
+                        <input type="checkbox" value="checked" name="condition" />
+                    </td>
+                    <td>Agree term and conditions</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

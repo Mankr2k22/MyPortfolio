@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manish'Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- <h1>Hello world</h1> -->
+    <header>
+        <nav>
+            <div class="left">Manish's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="form.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <p class="aboutMnis">
+                    Hi,My name is <span class="purple">Manish Kumar</span>
+                    And I am a passionate
+                </p>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <!-- <img src="./image/2792.png_860.png" alt=""> -->
+                <img src="./image/IMG_0785.jpg" alt="manish" />
+            </div>
+        </section>
+        <hr />
+        <div class="container">
+
+            <div>
+                <h1 class="skill-heading">->>Technical Skills</h1>
+
+                <p>-HTML</p>
+                <p>-CSS</p>
+                <p>-JavaScript</p>
+                <p>-Bootstrap</p>
+                <p>-React Js</p>
+
+            </div>
+        </div>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1 class="main-heading-edu">Education Qualification</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./image/2792.png_860.png" alt="" />
+                    <div class="verticle-title">Secondary School Examination</div>
+                    <div class="verticle-desc">
+                        Manas Vidyalaya,Jehanabad 2016-2017 CGPA:9.2/10
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./image/2792.png_860.png" alt="" />
+                    <div class="verticle-title">Intermediate</div>
+                    <div class="verticle-desc">
+                        Gaya College,Gaya 2018-2019 Percentage:75.8%
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./image/2792.png_860.png" alt="" />
+                    <div class="verticle-title">Graduation(B.C.A.)</div>
+                    <div class="verticle-desc">
+                        Magadh University 2019-2022 Percentage:70.73%
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./image/2792.png_860.png" alt="" />
+                    <div class="verticle-title">Post-Graduation(M.C.A.)</div>
+                    <div class="verticle-desc">
+                        Chandigarh University 2023-2025 CGPA:7.53(1st Sem.)
+                    </div>
+                </div>
+                <!-- <div class="vertical">
+            <img class="image-top" src="./image/2792.png_860.png" alt="" />
+            <div class="verticle-title">Java</div>
+            <div class="verticle-desc">
+              Java is a popular programming language. Java is used to develop
+              mobile apps, web apps, desktop apps, games and much more.
+            </div>
+          </div> -->
+                <!-- <div class="vertical">
+            <img class="image-top" src="./image/2792.png_860.png" alt="" />
+            <div class="verticle-title">Python</div>
+            <div class="verticle-desc">
+              Python is a high-level, general-purpose programming language. Its
+              design philosophy emphasizes code readability with the use of
+              significant indentation.
+            </div>
+          </div> -->
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#element", {
+            strings: [
+                "Front-End Developer",
+                "Backend Developer",
+                "MERN Stack Developer",
+                "FullStack Developer",
+            ],
+
+            typeSpeed: 100,
+        });
+    </script>
+</body>
+
+</html>

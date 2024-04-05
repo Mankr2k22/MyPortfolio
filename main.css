@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Use the variables */
+body {
+  background-color: rgb(18, 18, 62);
+  color: darkblue;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  /* background-color: rgb(49, 49, 126); */
+  background-color: rgb(34, 0, 128);
+  /* background-color: rgb(18, 18, 62); */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  /* list-style: none; */
+  text-decoration: none;
+  color: rgb(242, 255, 0);
+  /* margin: 0 23px;   */
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  font-size: 1.02rem;
+  text-decoration: none;
+  color: rgb(109, 109, 212);
+  /* margin: 0 23px;   */
+}
+
+.left {
+  font-size: 1.5rem;
+  color: rgb(251, 255, 0);
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 130px 0;
+  align-items: center;
+}
+
+.firstSection > div {
+  width: 30%;
+  /* background-color: red; */
+  /* margin: 80px 0; */
+}
+
+.leftSection {
+  /* background-color: red; */
+  color: brown;
+  font-size: 2.5rem;
+  /* margin: 70px 0; */
+  color: white;
+}
+
+.rightSection {
+  /* background-color: red; */
+}
+
+.rightSection img {
+  width: 65%;
+  margin: 50px 0;
+}
+
+.purple {
+  color: rgb(170, 107, 228);
+  /* font-size: 25px; */
+}
+
+#element {
+  color: rgb(170, 107, 228);
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+}
+
+main hr {
+  border: 0;
+  background: blueviolet;
+  height: 1.2px;
+  margin: 48px 84px;
+}
+
+.secondSection h1 {
+  font-size: 1.6rem;
+}
+
+.secondSection .box {
+  /* background : white; */
+  background: darkred;
+  width: 55vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  /* background-color: white; */
+  background-color: darkred;
+  margin: 0 100px;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.verticle-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  color: rgb(206, 219, 64);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.verticle-desc {
+  position: relative;
+  top: 86px;
+  /* color: gray; */
+  color: rgb(241, 127, 127);
+  font-weight: 600;
+  width: 150px;
+  font-size: 12px;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.aboutMnis {
+  color: #fff;
+}
+
+.container {
+  margin: 40px;
+  color: darkblue;
+  padding: 40px;
+  border: 1px solid #fff;
+}
+
+.skill-heading {
+  color: rgb(0, 255, 204);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -60px;
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  color: lightseagreen;
+  text-align: center;
+}
+
+.main-heading-edu {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 8px;
+  border-width: 0;
+  background-color: lightgreen;
+}/*# sourceMappingURL=main.css.map */
